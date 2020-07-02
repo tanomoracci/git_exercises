@@ -1,3 +1,7 @@
+.navbar {
+    padding-top: 0;
+    padding-bottom: 0;
+}
 
 img {
     height: 22rem;
@@ -40,4 +44,23 @@ ul, .footer-top a {
     list-style: none;
     text-decoration: none;
     color: white;
+}
+
+@media screen and (max-width:768px) {
+
+    .navbar {
+        padding-left: 0;
+        padding-right: 0;
+
+    }
+
+    #navbarSm ul li a {
+        margin-left: 5px;
+    }
+
+    .navbar-brand {
+        margin-left: 5px;
+    }
+
+   
 }
